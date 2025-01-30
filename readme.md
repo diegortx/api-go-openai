@@ -23,16 +23,16 @@ Process a chat message and get an AI-generated response.
 
 ```json
 {
-"user_id": "user123",
-"message": "What is the capital of France?",
-"context": {
-"system_prompt": "You are a helpful assistant that specializes in geography.",
-"metadata": {
-"language": "en",
-"topic": "geography"
-},
-"temperature": 0.7
-}
+    "user_id": "user123",
+    "message": "What is the capital of France?",
+    "context": {
+        "system_prompt": "You are a helpful assistant that specializes in geography.",
+        "metadata": {
+            "language": "en",
+            "topic": "geography"
+        },
+        "temperature": 0.7
+    }
 }
 ```
 
@@ -40,8 +40,8 @@ Process a chat message and get an AI-generated response.
 
 ```json
 {
-"success": true,
-"response": "The capital of France is Paris."
+    "success": true,
+    "response": "The capital of France is Paris."
 }
 ```
 
@@ -52,8 +52,8 @@ Clear the conversation history for a specific user.
 
 ```json
 {
-"success": true,
-"response": "Conversation cleared successfully"
+    "success": true,
+    "response": "Conversation cleared successfully"
 }
 ```
 
@@ -64,8 +64,8 @@ Check if the service is running.
 
 ```json
 {
-"status": "ok",
-"time": "2024-03-21T10:00:00Z"
+    "status": "ok",
+    "time": "2024-03-21T10:00:00Z"
 }
 ```
 
